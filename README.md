@@ -4,7 +4,7 @@ Um programa de Cadastro e Login para usuários digitarem seu nome de usuário e 
 
 ## Como funciona
 1. Escolha uma das opções (1-Login, 2-Cadastro ou 0-Sair do Programa).
-2. Para fazer login, digite o nome de usuário e senha corretamente. O acesso será concedido se os dados estiverem presentes na variável `datas`. Caso contrário, o programa informará que o usuário ou a senha estão incorretos.
+2. Para fazer login, digite o nome de usuário e senha corretamente. O acesso será concedido se os dados estiverem presentes na variável `datas`. Caso contrário, o programa informará que o usuário ou a senha estão incorretos. Certifique-se também de que já exista algum usuário dentro da variável `datas` (no próprio código já tem dois usuários já inseridos), pois se não, será necessário realizar o cadastro primeiro. 
 3. O cadastro segue o mesmo processo, mas há uma verificação para impedir que um nome de usuário já existente na variável `datas` seja cadastrado novamente. Se o nome de usuário for único, o cadastro será realizado com sucesso.
 4. O programa continuará pedindo comandos de execução até que você digite 0 para sair.
 5. No final, todos os usuários cadastrados serão impressos.
